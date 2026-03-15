@@ -13,6 +13,9 @@ public class Main {
                if(command.equals("exit")){
                 break;
             }
+            else if(command.equals("echo")){
+                System.out.println(command.substring(5));
+            }
             System.out.println(command + ": command not found");
          
         }
