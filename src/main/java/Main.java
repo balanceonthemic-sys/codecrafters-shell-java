@@ -13,8 +13,7 @@ public class Main {
                if(command.equals("exit")){
                 break;
             }
-            String s = command.substring(0, 4);
-            else if(s.equals("echo")){
+            else if(command.startsWith("echo ")){
                 System.out.println(command.substring(5));
                
             }
