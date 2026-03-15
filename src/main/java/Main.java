@@ -10,6 +10,9 @@ public class Main {
             System.out.print("$ ");
             String command = new Scanner(System.in).nextLine();
             System.out.println(command + ": command not found");
+            if(command.equals("exit")){
+                break;
+            }
         }
     }
 }
